@@ -29,7 +29,6 @@ namespace HW_6
                 catch
                 {
                     Console.WriteLine("Некорректный ввод. Введите натуральное число");
-                    input = -1;
                 }
             }
             while (input <= 0);
